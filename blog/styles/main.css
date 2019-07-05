@@ -87,6 +87,25 @@ nav li a:hover{
     box-shadow: 0 .5vw 1vw #21373a;
 }
 
+article {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    margin-bottom: 5em;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+}
+
+img {
+    margin-top: 10%;
+    width: 100%;
+    height: auto;
+}
+
 footer {
     width: 100vw;
     height: 8vh;
