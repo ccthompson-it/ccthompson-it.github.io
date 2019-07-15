@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My blog</title>
+    <meta charset="UTF-8">
+    <link href="styles/main.css" rel="stylesheet" type="text/css" />
+    <script src="scripts/menu.js"></script>
+  </head>
+
+  <body>
+    <main>
+      <nav>
+        <h2 onclick="toggle_menu();" class = "cursor">&#9776;</h2>
+        <ul id="menu">
+          <li><a href="index.html" class="cursor">Home</a></li>
+          <li><a href="sprint1-technical.html" class="cursor">S1 Tech</a></li>
+          <li><a href="sprint2-technical.html" class="cursor">S2 Tech</a></li>
+          <li><a href="sprint1-core.html" class="cursor">S1 Core</a></li>
+          <li><a href="sprint2-core.html" class="cursor">S2 Core</a></li>
+          <li><a href="sprint3-core.html" class="cursor">S3 Core</a></li>
+          <li><a href="sprint3-technical.html" class="cursor">S3 Tech</a></li>
+        </ul>
+      </nav>
+      <h1>Kia ora Taiao! (Hello World!)</h1> 
+      <p> This is the beginning of my website home page.</p>
+      <p> It will eventually contain a list of links to all my blogs. </p>
